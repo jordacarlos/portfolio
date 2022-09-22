@@ -1,0 +1,22 @@
+body{
+    background-color: #222222;
+    color: white;
+}
+.Main{
+    background-color: #222222;
+    color: white;
+}
+
+.projects{
+    background-color: #2C2C2C;
+    padding:10px 0px 10px 0px;
+    color: white;
+}
+
+button{
+    color: white;
+}
+
+button i{
+    color: white;
+}

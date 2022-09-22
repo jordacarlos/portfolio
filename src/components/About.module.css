@@ -1,0 +1,87 @@
+.MainAbout{
+    margin: 10px 118px 10px 118px;
+    
+}
+
+.MainAbout h1{
+    text-align: center;
+}
+.MainAbout i{
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.introText{
+    margin:22px 0px 22px 0px;
+}
+.Skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 52px 0px 52px 0px;
+    justify-content:center;
+}
+
+.skills_conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.details_skills{
+    margin-right: 50px;
+    padding-left: 5px;
+    font-size: 25px;
+    background-image: linear-gradient(to right, rgba(143,227,207,1), rgb(143,227,207,0.1)); 
+}
+
+.Skills_icons{
+    max-width: 80px;
+    
+}
+
+svg {
+    font-size: 20px;
+    filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.4));
+    transition: 0.5s;
+}
+
+.Skills_icons i:nth-child(2n + 1) {
+   color: #45bae0;
+}
+
+.btnLink{
+    text-align: center;
+}
+button{
+    background-color: #8CD4C3;
+    text-align: center;
+    width: 91px;
+    height: 27px;
+    font-size:20;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover{
+    box-shadow: 1px 1px 5px #38dab4;
+}
+
+.Skills_icons i:hover {
+    color: #009fd4;
+ }
+
+ .Skills_icons i:nth-child(2n + 1):hover {
+    color: #ffffff;
+ }
+
+
+@media only screen and (max-width: 500px) {
+    .details_skills{
+        margin-right: none;
+        padding-left: 5px;
+    }
+    .Skills{
+        justify-content:flex-start;
+    }
+}

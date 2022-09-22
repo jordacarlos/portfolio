@@ -1,0 +1,98 @@
+.MainCointeiner{
+    margin: 10px 118px 10px 118px;
+}
+
+.MainCointeiner header{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   padding-bottom: 20px;
+}
+.MainCointeiner h4{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.boas_vindas{
+    display: flex;
+}
+.img{
+    border-radius: 55px 0px;
+    border: 1px solid black;
+    width: 260px;
+    height: 350px;
+}
+.intro{
+    margin-left: 10px;
+}
+.intro h3{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+.apresentacao{
+    padding-bottom: 22px;
+}
+.highlight_text{
+    color: #256D85;
+}
+
+.redes{
+    padding-top:10px;
+    justify-content: flex-end;
+    text-align:right;
+}
+.redes button{
+    margin: 0px 24px;
+    width: 91px;
+    height: 27px;
+    background: #225566;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.redes i{
+    background: #225566;
+    border: none;
+    transition: 1s;
+}
+
+.redes button:hover{
+    box-shadow: 1px 1px 5px #02bbf8;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .MainCointeiner .boas_vindas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .MainCointeiner header{
+        justify-content: center;
+     }
+    .apresentacao{
+        min-width: 300px;    
+    }
+    .MainCointeiner .img{
+        border-radius: 55px 0px;
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        
+    }
+    .MainCointeiner h3{
+        text-align: center;
+        margin: auto;
+    }
+    .MainCointeiner p{
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    .redes button{
+        margin: 0px 10px 0px 0px ;
+    }
+   
+}
