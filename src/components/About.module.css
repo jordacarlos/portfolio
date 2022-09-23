@@ -12,7 +12,7 @@
 }
 
 .introText{
-    margin:22px 0px 22px 0px;
+    margin:22px 0px 22px 22px;
 }
 .Skills{
     display: flex;
@@ -28,42 +28,43 @@
 }
 
 .details_skills{
-    margin-right: 50px;
+    margin-right: 85px;
     padding-left: 5px;
     font-size: 25px;
     background-image: linear-gradient(to right, rgba(143,227,207,1), rgb(143,227,207,0.1)); 
 }
 
 .Skills_icons{
-    max-width: 80px;
-    
+    padding-top: 2px;
+    max-width: 100px;
 }
 
-svg {
-    font-size: 20px;
+.MainAbout svg {
+    font-size: 25px;
     filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.4));
     transition: 0.5s;
 }
 
 .Skills_icons i:nth-child(2n + 1) {
-   color: #45bae0;
+   color: #3ea1c2;
 }
 
 .btnLink{
     text-align: center;
 }
-button{
+.MainAbout button{
     background-color: #8CD4C3;
     text-align: center;
-    width: 91px;
-    height: 27px;
+    width: 125px;
+    height: 30px;
     font-size:20;
     border: none;
     cursor: pointer;
     transition: 1s;
+    font-size: 20px;
 }
 
-button:hover{
+.MainAbout button:hover{
     box-shadow: 1px 1px 5px #38dab4;
 }
 
@@ -71,17 +72,23 @@ button:hover{
     color: #009fd4;
  }
 
- .Skills_icons i:nth-child(2n + 1):hover {
+.Skills_icons i:nth-child(2n + 1):hover {
     color: #ffffff;
- }
+}
 
 
 @media only screen and (max-width: 500px) {
-    .details_skills{
-        margin-right: none;
+    .MainAbout .details_skills{
+        margin-right: 50px;
         padding-left: 5px;
+        font-size: 15px;
     }
-    .Skills{
+    .MainAbout .Skills{
         justify-content:flex-start;
+    }
+    .MainAbout .introText{
+        margin:22px 0px 22px 0px;
+        font-size: 15px;
+        text-align:start;
     }
 }

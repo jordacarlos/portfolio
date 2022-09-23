@@ -1,20 +1,19 @@
 import React from 'react'
 
 import styles from './About.module.css'
-import {FaJava ,FaReact} from 'react-icons/fa'
+import {FaJava ,FaReact, FaNodeJs,FaFigma} from 'react-icons/fa'
 import {AiFillHtml5} from 'react-icons/ai'
-import { DiJavascript1 } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
-
+import { DiJavascript1,DiGit,DiDatabase } from "react-icons/di";
+import { SiTypescript,SiGnubash } from "react-icons/si";
 
 const About = () => {
   return (
 
-    <div className={styles.MainAbout}>
+    <div className={styles.MainAbout} id="sobre">
         <h1>Sobre</h1>
         <div>
             <p className={styles.introText}>
-            Conheça mais sobre algumas linguagens que possuo conhecimento dentro da área de desenvolvimento.
+                Conheça mais sobre algumas linguagens que possuo conhecimento dentro da área de desenvolvimento.
             </p>
             <h2><i className="bi bi-caret-right-fill"></i>Skills</h2>
             <div className={styles.Skills}>
@@ -25,18 +24,22 @@ const About = () => {
                         <i><FaReact  /></i>
                         <i><DiJavascript1 /></i>
                         <i><SiTypescript /></i>
+                        <i><FaFigma /></i>
                     </div>
                 </div>
                 <div className={styles.skills_conteiner}>
                     <p className={styles.details_skills}>Back-End</p>
                     <div className={styles.Skills_icons}>
+                        <i><FaNodeJs/></i>
                         <i><FaJava/></i>
                     </div>
                 </div>
                 <div className={styles.skills_conteiner}>
                     <p className={styles.details_skills}>Outros</p>
                     <div className={styles.Skills_icons}>
-                        <i><FaJava /></i>
+                        <i><DiGit /></i>
+                        <i><DiDatabase /></i>
+                        <i><SiGnubash /></i>
                     </div>
                 </div>
             </div>
@@ -47,5 +50,4 @@ const About = () => {
     </div>
   )
 }
-
 export default About

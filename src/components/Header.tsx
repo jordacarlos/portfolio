@@ -3,21 +3,22 @@ import Photo from "../assets/Foto_CPqD.jpg";
 import styles from "./Header.module.css"
 
 const Header = () => {
+
   return (
     <div className={styles.MainCointeiner}>
       <header>
-        <h4>Sobre</h4>
-        <h4>Projetos</h4>
+        <a href='#sobre'><h4>Sobre</h4></a>
+        <a href='#projetos'><h4>Projetos</h4></a>
       </header>
       <div className={styles.boas_vindas}>
             <img src={Photo} alt="" className={styles.img}/>
         <div className={styles.intro}>
           <div className={styles.apresentacao}>
-            <h3>Bem-Vindo</h3>
+            <h3>Bem-vindo!</h3>
             <h3>Eu sou</h3>
             <h3 className={styles.highlight_text}>Jordã Carlos de Jesus</h3>
           </div>
-          <div className='short-intro'>
+          <div>
             <p>Sou aspirante na área de tecnologia, buscando sempre aprimorar as habilidades necessárias para o desenvolvimento de 
               <strong className={styles.highlight_text}> aplicações</strong > e <strong className={styles.highlight_text}>soluções</strong>, 
               facilitando o cotidiano dos usuários.

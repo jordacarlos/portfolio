@@ -1,7 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #222222;
     color: white;
 }
+
+body h1,h2,h3,h4,h5{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+body p{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+body i{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
 .Main{
     background-color: #222222;
     color: white;
@@ -11,6 +29,7 @@ body{
     background-color: #2C2C2C;
     padding:10px 0px 10px 0px;
     color: white;
+    
 }
 
 button{
@@ -20,3 +39,4 @@ button{
 button i{
     color: white;
 }
+

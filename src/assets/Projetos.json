@@ -2,17 +2,38 @@
     "projetos": [
         {
             "id": "1",
+            "nome": "Prontuario Digital",
+            "tecn": "HTML,CSS,bootstrap",
+            "descri": "Trabalho de Conclusão de Curso - Técnico Informatica para Internet ETEC",
+            "link":"https://github.com/jordacarlos/TCC---Informatica-para-Internet"
+        },
+        {
+            "id": "2",
             "nome": "Help.U",
-            "imagem": "../assets/Help.U.jpg",
-            "descri": "Um projeto TOP",
+            "tecn": "HTML,CSS,React",
+            "descri": "Trabalho de Conclusão de Curso - Análise e Desenvolvimento de Sistemas",
             "link":"https://github.com/dancmoura/helpU"
         },
         {
-            "id": "1",
-            "nome": "Help.U",
-            "imagem": "D:/Eu/portfolio/src/assets/Help.U.jpg",
-            "descri": "Um projeto TOP",
-            "link":"https://github.com/dancmoura/helpU"
+            "id": "3",
+            "nome": "To Do List",
+            "tecn": "React, TypeScript",
+            "descri": "Projeto ToDo List usando React + TypeScript",
+            "link":"https://github.com/jordacarlos/ToDo_List-React-Ts"
+        },
+        {
+            "id": "4",
+            "nome": "Trips",
+            "tecn": "React & Redux",
+            "descri": "Projeto de reserva de viagens usando React + Redux",
+            "link":"https://github.com/jordacarlos/React_Trips"
+        },
+        {
+            "id": "5",
+            "nome": "Sistema Chamados",
+            "tecn": "React",
+            "descri": "Projeto de criação de chamados usando React",
+            "link":"https://github.com/jordacarlos/Sistema_Chamados"
         }
     ]
   }

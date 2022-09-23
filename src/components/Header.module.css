@@ -11,15 +11,23 @@
 .MainCointeiner h4{
     margin-left: 10px;
     cursor: pointer;
+
 }
+.MainCointeiner a:link, a:visited {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+
 .boas_vindas{
     display: flex;
 }
 .img{
     border-radius: 55px 0px;
     border: 1px solid black;
-    width: 260px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
 }
 .intro{
     margin-left: 10px;
@@ -62,7 +70,7 @@
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 868px) {
     .MainCointeiner .boas_vindas{
         display: flex;
         flex-direction: column;
@@ -73,7 +81,7 @@
     .MainCointeiner header{
         justify-content: center;
      }
-    .apresentacao{
+    .MainCointeiner .apresentacao{
         min-width: 300px;    
     }
     .MainCointeiner .img{
@@ -81,7 +89,6 @@
         border: 1px solid black;
         width: 200px;
         height: 200px;
-        
     }
     .MainCointeiner h3{
         text-align: center;
@@ -89,10 +96,11 @@
     }
     .MainCointeiner p{
         padding-bottom: 10px;
-        text-align: justify;
     }
-    .redes button{
-        margin: 0px 10px 0px 0px ;
+    .MainCointeiner .redes{
+        text-align: center;
     }
-   
+    .MainCointeiner .redes button{
+        margin: 10px 10px 0px 0px ;
+    }
 }
